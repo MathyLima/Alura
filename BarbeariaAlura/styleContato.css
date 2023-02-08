@@ -1,0 +1,80 @@
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+form label, form legend{
+    display: block;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+
+
+.nomeiaInput{
+    display: block;
+    margin: 50px 0 0 0;
+    font-size: 20px;
+}
+
+
+
+.input-padrao{
+    display: block;
+    width: 50%;
+    margin-bottom: 20px ;
+
+    padding: 10px 20px;
+}
+
+.seleciona{
+    padding: 10px 0;
+}
+.checkbox{
+    margin: 20px 0 ;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+#horariosTable {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+}
+
+thead th{
+    color: white;
+    font-weight: bold;
+}
+
+.celulasTable {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+@media screen and (max-width:480px) {
+    .enviar{
+        font-size: 10px;
+    }
+}

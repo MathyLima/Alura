@@ -1,0 +1,76 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    transition: 400ms all;
+
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+
+
+
+footer {
+    background: url(Imagens/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copy {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    nav a:hover {
+        font-size: 13px;
+    }
+}
